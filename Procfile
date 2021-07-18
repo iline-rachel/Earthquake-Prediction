@@ -1,1 +1,1 @@
-web: gunicorn app:earthqp_app
+web: gunicorn earthqp_app:earthqp_app
