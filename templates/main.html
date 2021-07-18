@@ -1,0 +1,33 @@
+
+<html>
+    <body bgcolor=#633974>
+
+        <center>
+        
+        <h1>Richter's Predictor: modeling earthquake damage</h1><br>
+        
+        <form method="POST", action="{{url_for('man')}}">
+        <b>geolevel1 :  <input type="text", name='geo_level_1_id', placeholder="geo level 1 id"> <br><br>
+        geolevel2 : <input type="text", name='geo_level_2_id', placeholder="geo level 2 id"> <br><br>
+        geolevel3 : <input type="text", name="geo_level_3_id", placeholder="geo level 3 id"> <br><br>
+        age : <input type="text", name="age", placeholder="enter the age"> <br><br>
+        areapercentage : <input type="text", name="area_percentage", placeholder="area percentage"> <br><br>
+        heightpercentage : <input type="text", name="height_percentage", placeholder="height percentage"> <br><br>
+        rooftype : <input type="text", name="roof_type", placeholder="enter the roof type" > <br><br>
+        groundfloortype : <input type="text", name="ground_floor_type", placeholder="ground floor type"> <br><br>
+        adobemud : <input type="text", name="has_superstructure_adobe_mud", placeholder="superstructure adobe mud"> <br><br>
+        mortarstone : <input type="text", name="has_superstructure_mud_mortar_stone", placeholder=" superstructure mud mortar stone"> <br><br>
+        stoneflag : <input type="text", name="has_superstructure_stone_flag", placeholder="superstructure stone flag"> <br><br>
+        cementmortarstone : <input type="text", name="has_superstructure_cement_mortar_stone", placeholder="superstructure cement mortar stone"> <br><br>
+        mudmortarbrick : <input type="text", name="has_superstructure_mud_mortar_brick", placeholder="superstructure mud mortar brick"> <br><br>
+        cementmortarbrick : <input type="text", name="has_superstructure_cement_mortar_brick", placeholder="superstructure cement mortar brick"> <br><br>
+        timber : <input type="text", name="has_superstructure_timber", placeholder="superstructure timber"> <br><br>
+        bamboo : <input type="text", name="has_superstructure_bamboo", placeholder="superstructure bamboo"> <br><br>
+        rcnonenginnered : <input type="text", name="has_superstructure_rc_non_engineered", placeholder="superstructure rc non engineered"> <br><br>
+        rcengineered : <input type="text", name="has_superstructure_rc_engineered", placeholder="superstructure rc engineered"> <br><br>
+        <input type="submit" , value='Predict!'>
+
+        </form>
+    </center>
+    </body>
+</html>
